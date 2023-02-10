@@ -1,7 +1,7 @@
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
-export const Cover = () => {
+const Cover = () => {
   const particlesInit = async (main) => {
     console.log(main);
     await loadFull(main);
@@ -88,3 +88,5 @@ export const Cover = () => {
     </div>
   );
 };
+
+export default Cover;

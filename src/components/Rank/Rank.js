@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Rank = () => {
+const Rank = () => {
   return (
     <div className="">
       <div className="white f3 ">{"Igor, your current rank is..."}</div>
@@ -8,3 +8,5 @@ export const Rank = () => {
     </div>
   );
 };
+
+export default Rank;

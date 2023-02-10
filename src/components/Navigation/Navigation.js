@@ -1,9 +1,14 @@
 import React from "react";
 
-export const Navigation = () => {
+const Rank = ({ name, entries }) => {
   return (
-    <nav style={{ display: "flex", justifyContent: "flex-end" }}>
-      <p className="f3 link dim black underline pa3 pointer">Sign Out</p>
-    </nav>
+    <div>
+      <div className="white f3">
+        {`${name}, your current entry count is...`}
+      </div>
+      <div className="white f1">{entries}</div>
+    </div>
   );
 };
+
+export default Rank;
