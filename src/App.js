@@ -7,6 +7,7 @@ import Register from "./components/Register/Register";
 import Logo from "./components/Logo/Logo";
 import ImageLinkForm from "./components/ImageLinkForm/ImageLinkForm";
 import Rank from "./components/Rank/Rank";
+import Clarifai from "clarifai";
 import "./App.css";
 
 const initialState = {
